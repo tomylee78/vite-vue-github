@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+
 # 发生错误时终止
 set -e
 
@@ -15,10 +16,9 @@ echo > .nojekyll
 # 如果你要部署到自定义域名
 # echo 'www.example.com' > CNAME
 
-git init
-git checkout -B main
-git add -A
-git commit -m 'deploy'
+git commit -am 'deploy'
+echo 按任意键继续
+read -n 1
 
 # 如果你要部署在 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:tomylee78/vite-vue-github.git main:gh-pages
