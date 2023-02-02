@@ -8,6 +8,7 @@ defineProps({
 </script>
 
 <script>
+import AAA from './AAA.vue'
 export default {
   data() {
     return {
@@ -33,6 +34,7 @@ export default {
   <div>{{ DDD }}</div>
   <div>{{ XXX }}</div>
   <div>{{ YYY }}</div>
+  <AAA></AAA>  
 </template>
 
 <style scoped>
