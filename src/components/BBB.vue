@@ -5,10 +5,10 @@
                 CCC: "你好",
             };
         },
-        props: ["url"],
+        props: ["ttt"],
     }
 </script>
 
 <template>
-  <div>{{ url }}，{{CCC}}</div>
+  <div>{{ ttt }}，{{CCC}}</div>
 </template>
