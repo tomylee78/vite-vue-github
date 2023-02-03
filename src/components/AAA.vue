@@ -6,6 +6,9 @@
                 text1: "你好",
             };
         },
+        components:{
+            BBB,
+        }
     }
 </script>
 
